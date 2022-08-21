@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.css">
+    <link rel ="stylesheet" href="css/style.css">
+    <title>Web Dev 2 Assignment</title>
+
+
+</head>
+<body>
+
+    <nav class="ui stackable inverted grey tabular menu">
+            <a class="item" href="index.html">Index</a>
+            <a class="item" href="quiz.html">Quiz</a>
+            <a class="item" href="game.html">Game</a>
+            <a class="active" href="quotes.html">Quotes</a>
+    </nav>
+
+    <br>
+    <br>
+
+
+    <div class="ui segment">
+      <div class="ui column">
+        <div class="column">
+  
+          <h1>
+            Random Quote Generator
+          </h1>
+
+            <div id="quotes">
+              <!-- The Quotes will be displayed here when the button is clicked-->
+            </div>
+            
+            <br>
+
+            <button onclick="newQuote()">Generate a Random Quote</button>
+
+            <br>
+            <br>
+
+            <p> Random Quotes Generated from: 
+              <ul>
+                <li>Publius Flavius Vegetius Renatus simply known as Vegetius who was a Roman writer from the
+                  4th Centuary, Famous for his books Epitoma rei militaris and Digesta Artis Mulomedicinae.</li>
+                <li>Homer who was a famous writer and poet from Ancient Greece, it is little known about when he was alive or existed at all
+                  but he composed the first two pieces of Western Literature, the Illiad and the Odyssey.</li>
+                <li>Titus Maccius Plautus commonly known as Plautus was a Roman playwright known very well for his comedies.</li>
+                <li>Gaius Julius Caeser, A famous Roman General with huge success in Gaul (Modern day France) and Emperor who was murdered and betrayed by his friends.</li>
+              </ul>
+            </p>
+
+            <br>
+
+            <button class='add'>Add a Quote</button> 
+            <button class='remove'>Remove Latest Quote</button>
+
+            <script src="JS/quote.js"></script>
+        </div>
+      </div>
+    </div>
+  
+
+</body>
+<script
+  src="https://code.jquery.com/jquery-3.5.1.min.js"
+  integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+  crossorigin="anonymous"></script>
+<script  src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.js">
+</script>
+</html>
